@@ -214,14 +214,14 @@ if(choice.lower()=="y"):
         gra = 7
     elif (gra == "G-08"):
         gra = 8
-    # elif (gra == "G-09"):
-    #     gra = 9
-    # elif (gra == "G-10"):
-    #     gra = 10
-    # elif (gra == "G-11"):
-    #     gra = 11
-    # elif (gra == "G-12"):
-    #     gra = 12
+    elif (gra == "G-09"):
+        gra = 9
+    elif (gra == "G-10"):
+        gra = 10
+    elif (gra == "G-11"):
+        gra = 11
+    elif (gra == "G-12"):
+        gra = 12
     sec = input("Enter Section: ")
     top = input("Enter Topic: ")
     sem = input("Enter Semester (F or S): ")
