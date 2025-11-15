@@ -278,18 +278,18 @@ if(choice.lower()=="y"):
         predP = "M"
     elif (predP == 2):
         predP = "L"
-    # if (predL == 0):
-    #     predL = "H"
-    # elif (predL == 1):
-    #     predL = "M"
-    # elif (predL == 2):
-    #     predL = "L"
-    # if (predN == 0):
-    #     predN = "H"
-    # elif (predN == 1):
-    #     predN = "M"
-    # elif (predN == 2):
-    #     predN = "L"
+    if (predL == 0):
+        predL = "H"
+    elif (predL == 1):
+        predL = "M"
+    elif (predL == 2):
+        predL = "L"
+    if (predN == 0):
+        predN = "H"
+    elif (predN == 1):
+        predN = "M"
+    elif (predN == 2):
+        predN = "L"
     t.sleep(1)
     print("\nUsing Decision Tree Classifier: ", predD)
     t.sleep(1)
