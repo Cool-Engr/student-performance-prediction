@@ -284,10 +284,10 @@ if(choice.lower()=="y"):
         predL = "M"
     elif (predL == 2):
         predL = "L"
-    if (predN == 0):
-        predN = "H"
-    elif (predN == 1):
-        predN = "M"
+    # if (predN == 0):
+    #     predN = "H"
+    # elif (predN == 1):
+    #     predN = "M"
     elif (predN == 2):
         predN = "L"
     t.sleep(1)
